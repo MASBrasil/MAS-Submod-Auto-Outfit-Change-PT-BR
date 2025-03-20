@@ -12,6 +12,10 @@
 
 Este submod é compatível com o [Submod Updater Plugin](https://github.com/Booplicate/MAS-Submods-SubmodUpdaterPlugin/releases/latest)! Instale-o para facilitar a atualização deste submod.
 
+### ⚠️ Aviso da MASBrasil
+Nunca traduzimos o código fonte!
+
+
 ### Relate quaisquer problemas na aba `issues`
 ###### Agradeço
 
