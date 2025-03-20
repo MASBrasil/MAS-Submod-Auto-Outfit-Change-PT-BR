@@ -1,67 +1,70 @@
-# Changelog
-## September 27th, 2020:
-- Crashfixes if your internet dropped or the connection timed out
-- Add support for pajama outfits
-- More exprops for bracelet customization
-- Added two new functions:
-  - *store.ahc_utils.*`add_builtin_to_list(sprite_obj, ex_prop)`:
-    - Adds a sprite object to the builtin list
-  - *store.ahc_utils.*`remove_builtin_from_list(sprite_obj, ex_prop)`:
-    - Removes a sprite object from the builtin list
-  - These add more flexibility in controlling outfits which can be selected
+# Changelog (Registro de Alterações)
+## 20 de março de 2025 (Registro não oficial)
+- Tradução do submod e do repositório para a comunidade MASBrasil ( feito com amor e carinho )
 
-## September 14th, 2020:
-- Bugfixes
-- Crash where having been with Monika for at least one D25 season was assumed
-- Fix an issue where the conditionals wouldn't be updated for those migrating from the original auto hair change
+## 27 de setembro de 2020:
+- Correções de falhas caso sua internet caísse ou a conexão expirasse  
+- Adicionado suporte para roupas de pijama  
+- Mais *exprops* para personalização de pulseiras  
+- Adicionadas duas novas funções:  
+  - *store.ahc_utils.*`add_builtin_to_list(sprite_obj, ex_prop)`:  
+    - Adiciona um objeto de sprite à lista embutida  
+  - *store.ahc_utils.*`remove_builtin_from_list(sprite_obj, ex_prop)`:  
+    - Remove um objeto de sprite da lista embutida  
+  - Essas funções oferecem mais flexibilidade no controle de roupas que podem ser selecionadas  
 
-## September 14th, 2020:
-- Auto Hair Change -> Auto Outfit Change
-- Now changes outfits
-- Customizable with ex_props
+## 14 de setembro de 2020:
+- Correções de bugs  
+- Correção de uma falha onde era assumido que o jogador estava com a Monika por pelo menos uma temporada D25  
+- Correção de um problema onde os condicionais não eram atualizados para aqueles que migravam da troca automática de cabelo original  
 
-## March 15th, 2020:
-- Adjusted for more types of night hair
-- Allowed spritepack support using ex_props
-- Uses new emptydesk transition labels
+## 14 de setembro de 2020:
+- Troca Automática de Cabelo -> Troca Automática de Roupa  
+- Agora troca roupas  
+- Personalizável com *ex_props*  
 
-## January 12th, 2020:
-- Dependency added
-- Removed overrides, replaced with function plugins
+## 15 de março de 2020:
+- Ajustado para mais tipos de cabelo noturno  
+- Permitido suporte a *spritepacks* usando *ex_props*  
+- Usa novos rótulos de transição *emptydesk*  
 
-## January 1st, 2020:
-- Black Ribbon fix
-- Black bow can only be worn with non-twintail hairstyles
+## 12 de janeiro de 2020:
+- Adicionada dependência  
+- Removidas substituições, agora usando plugins de função  
 
-## December 8th, 2019:
-- Changed action from `queue` to `push`
+## 1 de janeiro de 2020:
+- Correção do Laço Preto  
+- O laço preto só pode ser usado com penteados sem *twintails*  
 
-## October 28th, 2019:
-- Adjusted dockstat for o31 consistency with base MAS
+## 8 de dezembro de 2019:
+- Alterada a ação de `queue` para `push`  
 
-## September 22nd, 2019:
-- Added another label override
+## 28 de outubro de 2019:
+- Ajustado *dockstat* para consistência com o MAS base no evento *o31*  
 
-## September 20th, 2019:
-- Taking you somewhere farewell fix
-- Added ribbon preference for special days
-- Monika now only gets her hair ready when taking her out if it wasn't already, and you didn't ask for a specific style
+## 22 de setembro de 2019:
+- Adicionado outro *override* de rótulo  
 
-## September 19th, 2019:
-- Added new method `ahc_getDayHair()`
-- Added spritepack support
-- Added hair randomization
+## 20 de setembro de 2019:
+- Correção da despedida "levando você a algum lugar"  
+- Adicionada preferência de laço para dias especiais  
+- Agora Monika só arruma o cabelo ao sair com o jogador se ele não estiver pronto e você não tiver pedido um estilo específico  
 
-## July 6th, 2019:
-- Updated conditions again
-- Updated docking station farewell
-- Added documentation
-- Defaulted to ribbonless
+## 19 de setembro de 2019:
+- Adicionado novo método `ahc_getDayHair()`  
+- Adicionado suporte a *spritepacks*  
+- Adicionada aleatorização de cabelo  
 
-## June 26th, 2019:
-- Conditional fix
-- Wear ribbon
-- Fix for baked outfits
+## 6 de julho de 2019:
+- Atualizadas as condições novamente  
+- Atualizada a despedida da estação de ancoragem  
+- Adicionada documentação  
+- Laço desativado por padrão  
 
-## June 16th, 2019:
-- Initial Release
+## 26 de junho de 2019:
+- Correção condicional  
+- Adicionado uso de laço  
+- Correção para roupas *baked*  
+
+## 16 de junho de 2019:
+- Lançamento inicial
